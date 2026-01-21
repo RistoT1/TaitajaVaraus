@@ -1,0 +1,37 @@
+# ========================
+# Node / React
+# ========================
+node_modules/
+npm-debug.log
+yarn-error.log
+/dist/
+build/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ========================
+# PHP / Backend
+# ========================
+vendor/
+composer.lock
+*.log
+*.cache
+*.tmp
+*.bak
+
+# IDE / Editor
+.idea/
+*.iml
+*.iws
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Optional: PHP cache / session files
+*.session
+/tmp/
