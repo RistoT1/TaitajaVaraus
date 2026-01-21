@@ -1,10 +1,13 @@
 # Laiterekisteri ja Varausjärjestelmä
+
 https://tvt-linux.tvtedu.fi/~213603/TaitajaVaraus/frontend/
+
 ## Projektin kuvaus
 
-Selainpohjainen laiterekisteri ja varausjärjestelmä, jolla opettajat voivat etsiä, varata, palauttaa ja hallita TVT-osaston laitteita. Järjestelmä tukee kahta käyttäjäroolia: tavallinen opettaja ja admin-opettaja.
+Projekti oli taitaja2026 harjoitus projekti ja tämän vuoksi erittäin keskeneräinen. Selainpohjainen laiterekisteri ja varausjärjestelmä, jolla opettajat voivat etsiä, varata, palauttaa ja hallita TVT-osaston laitteita. Järjestelmä tukee kahta käyttäjäroolia: tavallinen opettaja ja admin-opettaja.
 
 ### Teknologiat
+
 - **Frontend**: React (Vite)
 - **Backend**: PHP (REST API)
 - **Tietokanta**: MySQL
@@ -85,6 +88,8 @@ Järjestelmään on määritelty kaksi oletuskäyttäjää:
    - Muokkaa omia tietoja
    - Vaihda salasana
 
+## Tietokantarakenne
+
 ### Taulut
 
 - **kayttajat** - Käyttäjätilit (salasanat häshätty bcrypt:llä)
@@ -103,6 +108,7 @@ Järjestelmään on määritelty kaksi oletuskäyttäjää:
 - Varaus ↔ Käyttäjä (N:1)
 - Varaus ↔ Laite (N:1)
 
+## Testaus
 
 ### Testattu selaimilla
 
